@@ -24,10 +24,10 @@ void main() async {
     Platform.isAndroid
     ? await Firebase.initializeApp(
     options: FirebaseOptions(
-      apiKey: "AIzaSyCE8sv_vdqt9g5pGSmwk6hLPcce-p6PMbQ",
-      appId: "1:288760462579:android:e99f962dcd1df5e6868b86",
-      messagingSenderId: "288760462579",
-      projectId: "bikeapp-7de88",
+      apiKey: "YOURAPIKEY",
+      appId: "YOURMAPID",
+      messagingSenderId: "YOUR_MESSAGED_ID",
+      projectId: "YOUR_PROJECT_ID",
     ),
   )
   : await Firebase.initializeApp(); // This is an asynchronous task, so we use 'await'
